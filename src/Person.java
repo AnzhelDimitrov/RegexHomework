@@ -23,10 +23,6 @@ public class Person {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -39,12 +35,8 @@ public class Person {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     @Override
     public String toString() {
-        return getFirstName() + getLastName() + getAge() + getEmail();
+        return getFirstName() + " " + getLastName() + ", " + getAge() + " years old, " + getEmail();
     }
 }

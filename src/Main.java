@@ -14,8 +14,30 @@ public class Main {
 
         List<Person> people = parsePeople(input);
 
+        System.out.println("Printing the initial emails:");
+        System.out.println();
         for (Person person : people) {
-            System.out.println(person.getEmail());
+            System.out.println(person);
+        }
+
+        System.out.println();
+        System.out.println("Printing the new emails:");
+        System.out.println();
+
+        for (Person person : people) {
+            String newEmail = person.getEmail().replaceAll("@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}", "@gmail.com");
+            person.setEmail(newEmail);
+            System.out.println(person);
+        }
+
+        System.out.println();
+        System.out.println("Printing the new emails:");
+        System.out.println();
+
+        for (Person person : people) {
+            String newFirstName = person.getFirstName().charAt(0) + ".";
+            person.setFirstName(newFirstName);
+            System.out.println(person);
         }
     }
 
