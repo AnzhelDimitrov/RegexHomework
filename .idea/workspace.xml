@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca62857b-bdb5-4b1b-b74b-ef479b472d75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca62857b-bdb5-4b1b-b74b-ef479b472d75" name="Changes" comment="Removed unnecessary setters from Person class, added additional functionality to change @example part of emails, changed first name to first letter followed by dot.&#10;Could potentially refactor so that we have separate private methods for this." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +46,19 @@
       <option name="presentableId" value="Default" />
       <updated>1719442951375</updated>
     </task>
+    <task id="LOCAL-00001" summary="Removed unnecessary setters from Person class, added additional functionality to change @example part of emails, changed first name to first letter followed by dot.&#10;Could potentially refactor so that we have separate private methods for this.">
+      <option name="closed" value="true" />
+      <created>1719445205174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719445205174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed unnecessary setters from Person class, added additional functionality to change @example part of emails, changed first name to first letter followed by dot.&#10;Could potentially refactor so that we have separate private methods for this." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary setters from Person class, added additional functionality to change @example part of emails, changed first name to first letter followed by dot.&#10;Could potentially refactor so that we have separate private methods for this." />
   </component>
 </project>
